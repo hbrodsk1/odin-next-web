@@ -1,0 +1,500 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+
+/* ------------------------------start upper content----------------------------*/
+.nav {
+	height: 80px;
+}
+
+.nav-top {
+	height: 32px;
+	background-color: black;
+}
+
+.nav-bottom {
+	height: 48px;
+}
+
+.all-content-wrapper {
+	width: 100%;
+	overflow: auto;
+}
+
+.main-articles {
+	position: relative;
+	left: 0;
+	width: 100%;
+	height: 75vh;
+	background-color: blue;
+	border: 10px solid gray;
+	
+}
+
+.cover-article {
+	background-color: green;
+	float: left;
+	height: 100%;
+	width: 50%;
+}
+
+.other {
+	position: relative;
+	float: left;
+	background-color: red;
+	width: 50%;
+	height: 100%;
+
+}
+
+.cover-trigger {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 50%;
+	border: 5px solid gray; 
+}
+
+.other-top-1 {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 50%;
+	background-color: yellow;
+	border: 5px solid gray;
+}
+
+.other-top-2 {
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 50%;
+	background-color: yellow;
+	border: 5px solid gray;
+}
+
+@media (max-width: 1024px) {
+.main-articles {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 60vh;
+	background-color: blue;
+	border: 10px solid gray;	
+}
+
+.cover-article {
+	background-color: purple;
+	float: left;
+	width: 100%;
+	height: 60%;
+}
+
+.other {
+	position: relative;
+	background-color: red;
+	width: 100%;
+	height: 40%;
+}
+
+.cover-trigger {
+	position: relative;
+	display: inline-block;
+	width: 33.3%;
+	height: 100%;
+}
+
+.other-top-1 {
+	position: relative;
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	background-color: yellow;
+}
+
+.other-top-2 {
+	position: relative;
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	background-color: yellow;
+  }
+}
+
+@media (max-width: 768px) {
+.main-articles {
+	position: relative;
+	left: 0;
+	width: 100%;
+	height: 60vh;
+	background-color: blue;
+	border: 10px solid gray;	
+}
+
+.cover-article {
+	background-color: purple;
+	float: left;
+	width: 100%;
+	height: 25%;
+	border: 5px solid gray;
+}
+
+.other {
+	position: relative;
+	background-color: red;
+	width: 100%;
+	height: 75%;
+}
+
+.cover-trigger {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 33.3%;
+}
+
+.other-top-1 {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 33.3%;
+	background-color: yellow;
+}
+
+.other-top-2 {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 33.3%;
+	background-color: yellow;
+  }
+}
+
+/* ------------------------------end upper content----------------------------*/
+
+
+/* ------------------------------start lower content----------------------------*/
+
+
+.lower-content-wrapper {
+	position: relative;
+	width: 90%;
+	height: auto;
+	top: 50px;
+	left: 0; 
+  	right: 0; 
+  	margin: auto; 	
+	clear: both;
+}
+
+
+.latest-news-title {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	font-size: 150%;
+	vertical-align: baseline;
+}
+
+.row-1 {
+	position: relative;
+	width: 100%;
+	overflow: auto;
+}
+
+.story, .deal {
+	position: relative;
+	width: 25%;
+	height: 135px;
+	float: left;
+	background-color: blue;
+	border: 5px solid white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.column {
+	position: relative;
+	width: 33.3%;
+	height: auto;
+	float: left;
+	border: 10px solid white;
+	margin-top: 10px;
+}
+
+.columns {
+	position: relative;
+	width: 100%;
+	overflow: auto;
+}
+
+.column-pic {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	border: 10px solid white;
+	background-color: black;
+}
+
+.column-info {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	border: 10px solid white;
+	background-color: brown;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+.story, .deal {
+	position: relative;
+	width: 33.3%;
+	height: 135px;
+	float: left;
+	background-color: blue;
+	border: 5px solid white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+  }
+
+.lower-content-wrapper {
+	position: relative;
+	top: 300px;
+}
+
+.row-1 {
+	position: relative;
+	width: 100%;
+	overflow: auto;
+}
+
+.column {
+	position: relative;
+	width: 50%;
+	height: auto;
+	float: left;
+	border: 7px solid white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+  }
+
+.column-pic {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	border: 7px solid white;
+	background-color: black;
+}  
+
+.column-info {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	float: left;
+	background-color: red;
+	border: 7px solid white;
+	margin-bottom: 20px;
+  }
+}	
+
+@media (max-width: 768px) {
+.story, .deal {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	float: left;
+	background-color: blue;
+	border: 5px solid white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+  }
+
+.lower-content-wrapper {
+	position: relative;
+	top: 50px;
+}
+
+.row-1 {
+	position: relative;
+	width: 100%;
+	overflow: auto;
+}
+
+.column {
+	position: relative;
+	width: 100%;
+	height: auto;
+	float: left;
+	border: 5px solid white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+  }
+
+.column-pic {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	border: 5px solid white;
+	background-color: black;
+  }
+
+.column-info {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	float: left;
+	background-color: red;
+	border: 10px solid white;
+	margin-bottom: 20px;
+  }      
+}
+
+
+/* ------------------------------end lower content----------------------------*/
+
+/* ------------------------------footer----------------------------*/
+
+.footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 300px;
+	margin-top: 100px;
+}
+
+.footer-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+.footer-top {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background-color: gray;
+}
+
+.footer-bottom {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background-color: black;
+}
+
+@media (max-width: 1024px) {
+.footer {
+	margin-top: 330px;
+  }
+}
+
+@media (max-width: 768px) {
+.footer {
+	margin-top: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
